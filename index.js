@@ -3,7 +3,7 @@ const io = require('socket.io')(8000);
 
 const users = {};
 
-// console.log('hello world')
+ console.log('hello world')
 
 io.on('connection' , socket => {
     socket.on('new-user-joined', name =>{
